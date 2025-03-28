@@ -41,9 +41,8 @@ a {
 
 
 .container {
-    width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
+    max-width: 1158px;
+    padding: 0 15px;
     margin: 0 auto;
 }
 /*--------HEADER-------*/
@@ -133,16 +132,19 @@ gap:  40px;
 .hero {
     
     background-color: #2E2F42;
+    
 }
 
 .hero-container { 
     width: 1440px;
         height: 600px;
+        padding-top: 188px;
+             padding-bottom: 188px;
     
 
 }
 .hero-title {
-    padding-top: 188px;
+    
     margin-bottom: 48px;
     margin-left: 316px;
     margin-right: 316px;
@@ -158,6 +160,7 @@ gap:  40px;
 }
 
 .hero-btn {
+    cursor: pointer;
     border-radius: 4px;
 padding: 16px 32px;
 width: 169px;
@@ -165,12 +168,12 @@ height: 56px;
 
     margin-left: 480px;
     border-radius: 4px;
-        min-width: 175px;
-        height: 53px;
+    
+    
         border: none;
         font-weight: 700;
         font-size: 16px;
-        margin-bottom: 188px;
+        
         display: block;
     color: #FFF;
    background-color: #4D5AE5;
@@ -184,6 +187,13 @@ height: 56px;
 /*--------HERO1-------*/
 
 /*--------POSITION2-------*/
+
+.position-container {
+    width: 1128px;
+        height: 104px;
+    padding-top: 120px;
+         padding-bottom: 120px;
+}
 .position-item {
     width: calc((100% - 72px) / 4);
 }
@@ -191,7 +201,7 @@ height: 56px;
 
 .position-list {
     display: flex;
-margin-bottom: 120px;
+
 gap: 24px;}
 
 .position-subtitle-item {
@@ -201,7 +211,7 @@ gap: 24px;}
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    padding-top: 120px;
+    margin-bottom: 8px;
 }
 
 .position-item-text {
@@ -218,21 +228,21 @@ gap: 24px;}
 
 /*--------OUR-TEAM3-------*/
 
-.our-team-item {
-    width: calc((100% - 72px) / 4);
-}
+
 
 .our-team {
     background-color: #F4F4FD;
 }
 .our-team-container  {
-     display: flex;
-     align-items: center;
+    width: 1440px;
+        height: 732px;
+        padding-bottom: 120px;
+        padding-bottom: 120px;
  }
 
 .our-team-title {
 
-    padding-top: 120px;
+    
     margin-bottom: 72px;
     color: #2E2F42;
     text-align: center;
@@ -253,6 +263,11 @@ gap: 24px;}
 
 .our-team-item {
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+.our-team-list-container {
+    padding: 32px 0 32px;
 }
 
 .our-team-subtitle {
@@ -263,6 +278,7 @@ gap: 24px;}
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
+    margin-bottom: 8px;
 }
 
 .our-team-text {
@@ -278,6 +294,17 @@ gap: 24px;}
 /*--------OUR-TEAM3-------*/
 
 /*--------OUR-PORTFOLIO4-------*/
+.our-portfolio-container {
+    width: 1128px;
+        
+        padding: 120px 0 120px 0)
+    }
+    .our-portfolio-list {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        flex-wrap: wrap;
+    }   
 .our-portfolio-title {
     padding-top: 120px;
     margin-bottom: 72px;
@@ -291,21 +318,8 @@ gap: 24px;}
     text-transform: capitalize;
 }
 
-.our-portfolio-container {
-    width: 1158px;
-        padding-left: 15px;
-        padding-right: 15px;
-        margin: 0 auto;
-        padding-bottom: 120px;
-       
-        
-}
- .our-portfolio-list {
-        display: flex;
-        align-items: center;
-        gap: 24px;
-        flex-wrap: wrap;
-    }
+
+ 
 .our-portfolio-subtitle {
     color: #2E2F42;
     font-size: 20px;
@@ -332,26 +346,24 @@ gap: 24px;}
 .page-footer {
     background-color: #2E2F42;
     justify-content: flex-start;
+    padding-top: 100px;
+         padding-bottom: 100px;
 }
+
+
 .footer-container {
     width: 1440px;
-        height: 312px;
-}
+        }
 
-.footer-logo {
-margin-left: 156px;
-padding-top: 100px;
-
-
-}
+.footer-logo {}
 
 .footer-logo .logo-part {
     color: #f4f4fd;
-    
-    
-    
+ margin-bottom: 16px;
+display: inline-block;
+padding-top: 100px;
 }
-
+    
 .page-footer-text {
     font-weight: 400;
         font-size: 16px;
@@ -359,10 +371,5 @@ padding-top: 100px;
         letter-spacing: 0.02em;
         color: #f4f4fd;
         max-width: 264px;
-        
-        margin-top: 16px;
-        margin-left: 156px;
-        margin-bottom: 100px;
-        
-        
-}
+         
+        padding-bottom: 100px;}
